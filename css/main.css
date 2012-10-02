@@ -1,0 +1,680 @@
+@charset "utf-8";
+/*
+	Author : JJ Bruwer
+	Date : 18 January 2012
+*/
+/* Credit Cart CSS Document */
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	font-family: Arial, Helvetica;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	display: block;
+	/*padding: 25px;*/
+}
+
+#header {
+	background: url('../images/credit_cart_broker_header_bg_grad.jpg') repeat-x top left;
+	height: 134px;
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	border-left: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	position:relative;
+	padding: 0px;
+	clear: both;
+}
+
+#header_logo {
+	width: 320px;
+	height: 118px;
+	display: block;
+	position:relative;
+	top: 16px;
+	left: 0px;
+}
+
+#header_line {
+	height: 5px;
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	background: url('../images/credit_cart_broker_header_line.jpg') repeat-x top left;
+	padding: 0px;
+	clear: both;
+}
+
+#login input[type="submit"]{
+	background: url('../images/credit_cart_btn_grad_green.jpg') repeat-x top left;
+	width: 110px;
+	height: 42px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	cursor: pointer;
+    cursor: hand;
+}
+
+#breadcrumbs {display:inline;}
+#breadcrumbs ul{display:inline;}
+#breadcrumbs ul li{display:inline;}
+#breadcrumbs li{display:inline;}
+
+#breadcrumbs {
+	position: relative;
+	top: 60px;
+	float: right;
+	left: 60px;
+	width: 440px;
+	height: 50px;
+	display: block;
+}
+
+#breadcrumbs ul {
+	margin: 0px 0px;
+}
+
+#breadcrumbs ul li
+{
+    float: left;
+	list-style-type: none;
+	display: inline;
+	padding: 0px 5px;
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+}
+#breadcrumbs ul li p {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	line-height: 27px;
+}
+#breadcrumbs ul .green {
+	color: #111111;
+}
+#breadcrumbs ul .gray {
+	color: #CCCCCC;
+}
+#breadcrumbs ul li img {
+	margin-bottom: 15px;
+}
+
+/* content start */
+#content {
+	margin: 0 auto;
+	padding: 0px;
+	width: 942px;
+	min-height: 350px;
+	height: 100%;
+	display: block;
+	overflow:visible;
+	clear:both;
+}
+#content h1 {
+	font-size: 20px;
+	color: #333;
+	margin: 5px 0px;
+	padding: 0px;
+}
+#content h3 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 11px;
+	color: #111;
+	margin: 5px 0px;
+	padding: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+#content p {
+	font-size: 12px;
+	color: #333;
+	margin: 10px 0px;
+	padding: 0px;
+}
+#content p a {
+	color: #418eb8;
+	text-decoration:none;
+}
+
+.defaulttext {
+	font-size: 12px;
+	color: #333;
+	margin: 7px 0px;
+	padding: 0px;
+}
+.defaulttext a {
+	color: #418eb8;
+	text-decoration:none;
+}
+
+#content img {
+	margin: 10px;
+	float: left;
+}
+#content label {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #333;
+	padding-right: 10px;
+}
+#content select {
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	font-weight: bold;
+	background: url('../images/credit_cart_broker_input_bg_grad.jpg') top left repeat-x;
+	height: 39px;
+	line-height: 39px;
+	width: 265px;
+	padding: 0px 10px;
+	color: #999;
+	margin: 7px 0px;
+}
+/*#content option {
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	font-weight: bold;
+	background: url('../images/credit_cart_broker_input_bg_grad.jpg') top left repeat-x;
+	height: 39px;
+	line-height: 39px;
+	width: 265px;
+	padding: 0px 10px;
+	color: #999;
+	margin: 7px 0px;
+}*/
+
+#content input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}
+
+#content input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+#content input[type="text"] {
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	font-weight: bold;
+	background: url('../images/credit_cart_broker_input_bg_grad.jpg') top left repeat-x;
+	height: 39px;
+	line-height: 39px;
+	width: 245px;
+	padding: 0px 10px;
+	color: #999;
+	margin: 7px 0px;
+}
+
+#content input[type="button"]{
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	cursor: pointer;
+    cursor: hand;
+}
+
+#content input[type="submit"]{
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	cursor: pointer;
+    cursor: hand;
+}
+/* duplicate style for <A> links that follows same look and feel */
+#content .submit {
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+}
+
+#content .submit:hover {
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+#content .longsubmit {
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 220px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+}
+
+#content .longsubmit:hover {
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+#content textarea {
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	font-weight: bold;
+	background: url('../images/credit_cart_contact_input_bg_long.jpg') top left repeat-x;
+	height: 90px;
+	line-height: 47px;
+	width: 511px;
+	padding: 0px 10px;
+	color: #333;
+	margin: 7px 0px;
+	font-family: Arial, Helvetica;
+}
+#content .tick p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #333;
+	line-height: 49px;
+}
+#content p a:hover {
+	background:url('../images/credit_cart_tickbox_on.jpg') top left no-repeat;
+}
+
+#monthoptions {
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+#monthoptions li {
+	list-style-type: none;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	border-right: none;
+	margin: 0px;
+	padding: 0px;
+	width: 109px;
+	height: 53px;
+	margin-right: -5px;
+}
+
+.three {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_3.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.three:hover {
+	background:url('../images/credit_cart_broker_slider_on_3.jpg') top left no-repeat;
+}
+
+.six {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_6.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.six:hover {
+	background:url('../images/credit_cart_broker_slider_on_6.jpg') top left no-repeat;
+}
+.nine {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_9.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.nine:hover {
+	background:url('../images/credit_cart_broker_slider_on_9.jpg') top left no-repeat;
+}
+.twelve {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_12.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.twelve:hover {
+	background:url('../images/credit_cart_broker_slider_on_12.jpg') top left no-repeat;
+}
+.eighteen {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_18.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.eighteen:hover {
+	background:url('../images/credit_cart_broker_slider_on_18.jpg') top left no-repeat;
+}
+.twentyfour {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_24.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.twentyfour:hover {
+	background:url('../images/credit_cart_broker_slider_on_24.jpg') top left no-repeat;
+}
+.thirty {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_30.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.thirty:hover {
+	background:url('../images/credit_cart_broker_slider_on_30.jpg') top left no-repeat;
+}
+.thirtysix {
+	text-decoration: none;
+	display:block;
+	width: 109px;
+	height: 53px;
+	background:url('../images/credit_cart_broker_slider_off_36.jpg') top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.thirtysix:hover {
+	background:url('../images/credit_cart_broker_slider_on_36.jpg') top left no-repeat;
+}
+
+#monthlyrepayments {
+ display: block;
+ width: 156px;
+ float: right;
+ margin-top: 30px;
+}
+
+#monthlyrepayments div {
+	background-color: #0A3B64;
+	color: #FFF;
+	font-weight: bold;
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align: center;
+	width: 149px;
+	height: 78px;
+	line-height: 78px;
+}
+
+#greybox {
+	background-color: #F2F2F2;
+	padding: 15px;
+	border: 1px solid #E3E3E3;
+	font-size: 11px;
+}
+#greybox p {
+}
+#greybox label {
+	width: 90px;
+	display: inline-block;
+}
+#greybox .grey {
+	color: #999;
+}
+#greybox .note {
+	background-color: #e2e2e2;
+	padding: 10px;
+	border: 1px solid #c1c1c1;
+	display: block;
+	width: 258px;
+}
+#greybox .note p {
+	font-weight: bold;
+	line-height:20px;
+}
+#greybox .note p span {
+	color: #026493;
+}
+
+#left {
+	float: left;
+	width: 652px;
+	min-height: 450px;
+	height: 100%;
+	padding: 24px;
+	border-left: 1px solid #ececec;
+	overflow:visible;
+}
+
+#right {
+	float: right;
+	width: 179px;
+	min-height: 450px;
+	height: 100%;
+	padding: 8px 20px 40px 28px;
+	background:url('../images/credit_cart_broker_right_bg_grad.jpg') top left repeat-y;
+	overflow:visible;
+}
+.orderno {
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	color: #111;
+	margin: 5px 0px;
+	padding: 0px;
+	font-weight: bold;
+	line-height: 32px;
+	height: 32px;
+	border-bottom: 1px solid #cacaca;
+	border-top: 1px solid #cacaca;
+	clear: both;
+}
+.orangelarge {
+	font-family: Arial, Helvetica;
+	font-size: 13px;
+	color: #fd6300;
+	margin: 5px 0px;
+	padding: 0px;
+	font-weight: bold;
+	line-height: 32px;
+	height: 32px;
+	clear: both;
+}
+
+#popup {
+	display: block;
+	width: 244px;
+	height: 250px;
+	background: url('../images/credit_cart_broker_pin_bg_grad.jpg') top left repeat-x;
+	border:1px solid #b3b9b9;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	padding: 10px 40px 10px 40px;
+}
+#popup p {
+	font-size: 12px;
+	color: #333;
+	margin: 10px 0px;
+	padding: 0px;
+}
+#popup p a {
+	color: #418eb8;
+	text-decoration:none;
+}
+#popup .blue {
+	color: #418eb8;
+}
+#popup input[type="text"] {
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	font-weight: bold;
+	background: url('../images/credit_cart_broker_input_bg_grad.jpg') top left repeat-x;
+	height: 39px;
+	line-height: 39px;
+	width: 245px;
+	padding: 0px 10px;
+	color: #999;
+	margin: 7px 0px;
+}
+
+#popup input[type="submit"]{
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	cursor: pointer;
+    cursor: hand;
+}
+
+#popup .red {
+	background: url('../images/credit_cart_broker_btn_red_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	text-decoration: none;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+    cursor: hand;
+}
+#popup .green {
+	background: url('../images/credit_cart_broker_btn_green_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display: block;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+	text-decoration: none;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+    cursor: hand;
+}
+
+/* content end */
+
+/* footer starts */
+#footer {
+	width: 892px;
+	position:relative;
+	padding: 0px 24px;
+	bottom: 0px;
+	display:block;
+	height: 132px;
+	background: url('../images/credit_cart_broker_footer_bg_grad.jpg') top left repeat-x;
+	margin: 0 auto;
+	border-left: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+}
+#footer p {
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	color: #333;
+	line-height: 18px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+#footer .grey {
+	color:#999;
+}
+#footer .black {
+	color:#000;
+}
+#footer .black a {
+	color:#000;
+	text-decoration:none;
+}
+#footer ul {
+	margin:0px;
+}
+#footer ul li {
+	list-style-type:none;
+	display:inline;
+	float:left;
+	padding-right: 20px;
+}
+
+.error {
+ color: red
+}

@@ -1,0 +1,25 @@
+input[type="button"]{
+	background: url('../images/credit_cart_broker_submit_bg_grad.jpg') repeat-x top left;
+	width: 110px;
+	height: 45px;
+	display:inline;
+	border:1px solid #6B8A42;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size: 16px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #297521;
+}
+
+.three-on{background:url('../images/credit_cart_broker_slider_on_3.jpg') top left no-repeat;}
+.six-on{background:url('../images/credit_cart_broker_slider_on_6.jpg') top left no-repeat;}
+.nine-on{background:url('../images/credit_cart_broker_slider_on_9.jpg') top left no-repeat;}
+.twelve-on{background:url('../images/credit_cart_broker_slider_on_12.jpg') top left no-repeat;}
+.eighteen-on{background:url('../images/credit_cart_broker_slider_on_18.jpg') top left no-repeat;}
+.twentyfour-on{background:url('../images/credit_cart_broker_slider_on_24.jpg') top left no-repeat;}
+.thirty-on{background:url('../images/credit_cart_broker_slider_on_30.jpg') top left no-repeat;}
+.thirtysix-on{background:url('../images/credit_cart_broker_slider_on_36.jpg') top left no-repeat;}
+.thirty-on {background:url('../images/credit_cart_broker_slider_on_30.jpg') top left no-repeat;}
+.thirtysix-on{background:url('../images/credit_cart_broker_slider_on_36.jpg') top left no-repeat;}
